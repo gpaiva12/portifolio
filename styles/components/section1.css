@@ -1,10 +1,29 @@
 .section__1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.content {
+    position: absolute;
+    
+}
+
+
+
+
+
+
+/*
+.section__1 {
     position: relative;
+    right: 0;
+    padding-inline: 10.25rem;
 }
 
 .section1__img {
     padding-block: 8.125rem;
-    padding-inline: 10.25rem;
 }
 
 .section1__h2 {
@@ -12,10 +31,21 @@
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 3em;
-    border: 1px solid black;
+    font-size: 2.8em;
+    font-weight: 400;
     top: 16rem;
-    right: 10rem;
-    width: 20ch;
+    right: 6rem;
+    width: 26ch;
+    background-color: white;
+    padding: 6rem 6rem 10.65rem 6rem;
 }
 
+.section1__p {
+    position: absolute;
+    top: 30rem;
+    left: 51rem;
+    width: 70ch;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+}
+    */
