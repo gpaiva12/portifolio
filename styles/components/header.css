@@ -1,0 +1,66 @@
+.header__img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.7);
+}
+
+.header {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+}
+
+.header__logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.header__logo a {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+.nav__ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.nav__ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #bfbfbf;
+    padding: 5px;
+    transition: background-color 0.3s ease, transform 0.5s ease;
+}
+
+.nav__ul li a:hover {
+    transform: rotate(360deg); 
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.header__texto {
+    position: absolute; 
+    top: 12rem;
+    border: 2px #bfbfbf solid;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 4em;
+    text-transform: uppercase;
+    width: 20ch;
+    color: #bfbfbf;
+}

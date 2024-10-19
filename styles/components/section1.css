@@ -1,0 +1,21 @@
+.section__1 {
+    position: relative;
+}
+
+.section1__img {
+    padding-block: 8.125rem;
+    padding-inline: 10.25rem;
+}
+
+.section1__h2 {
+    position: absolute;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    border: 1px solid black;
+    top: 16rem;
+    right: 10rem;
+    width: 20ch;
+}
+
